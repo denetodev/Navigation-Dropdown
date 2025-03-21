@@ -1,0 +1,230 @@
+@use "../../styles/variables" as vars;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: vars.$almost-white;
+
+  .logo {
+    margin-right: 60px;
+
+    img {
+      width: 84px;
+    }
+  }
+
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    img {
+      width: 24px;
+    }
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-grow: 1;
+
+    .dropdown {
+      position: relative;
+
+      .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        color: vars.$medium-gray;
+        font-size: 14px;
+        padding: 10px 0;
+
+        &:hover {
+          color: vars.$almost-black;
+        }
+
+        .arrow {
+          width: 10px;
+          margin-left: 4px;
+        }
+      }
+
+      .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 40px;
+        left: -20px;
+        background-color: #fff;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        padding: 20px;
+        list-style: none;
+        min-width: 150px;
+        z-index: 10;
+
+        &.open {
+          display: block;
+        }
+
+        li {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          padding: 8px 0;
+          color: vars.$medium-gray;
+          font-size: 14px;
+          cursor: pointer;
+
+          &:hover {
+            color: vars.$almost-black;
+          }
+
+          img {
+            width: 20px;
+          }
+        }
+      }
+    }
+
+    .nav-link {
+      color: vars.$medium-gray;
+      font-size: 14px;
+      text-decoration: none;
+
+      &:hover {
+        color: vars.$almost-black;
+      }
+    }
+
+    .auth-buttons-mobile {
+      display: none;
+    }
+  }
+
+  .auth-buttons-desktop {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+
+    .login {
+      color: vars.$medium-gray;
+      font-size: 14px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        color: vars.$almost-black;
+      }
+    }
+
+    .register {
+      background: none;
+      border: 1.5px solid vars.$medium-gray;
+      border-radius: 14px;
+      padding: 10px 22px;
+      color: vars.$medium-gray;
+      font-size: 14px;
+      cursor: pointer;
+
+      &:hover {
+        color: vars.$almost-black;
+        border-color: vars.$almost-black;
+      }
+    }
+  }
+
+  @include vars.mobile {
+    padding: 20px;
+
+    .logo {
+      margin-right: 0;
+    }
+
+    .menu-toggle {
+      display: block;
+      z-index: 20;
+    }
+
+    .nav {
+      display: none;
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 65%;
+      height: 100vh;
+      background-color: #fff;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 80px 25px 25px;
+      box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+      z-index: 10;
+
+      &.active {
+        display: flex;
+      }
+
+      .dropdown {
+        width: 100%;
+        margin-bottom: 10px;
+
+        .dropdown-toggle {
+          padding: 10px 0;
+        }
+
+        .dropdown-menu {
+          position: static;
+          box-shadow: none;
+          padding: 5px 0 5px 20px;
+          margin-top: 5px;
+        }
+      }
+
+      .nav-link {
+        width: 100%;
+        padding: 10px 0;
+        margin-bottom: 5px;
+      }
+
+      .auth-buttons-mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        margin-top: 20px;
+
+        .login {
+          color: vars.$medium-gray;
+          font-size: 14px;
+          text-align: center;
+          text-decoration: none;
+        }
+
+        .register {
+          background: none;
+          border: 1.5px solid vars.$medium-gray;
+          border-radius: 14px;
+          padding: 12px 0;
+          color: vars.$medium-gray;
+          font-size: 14px;
+          width: 100%;
+          cursor: pointer;
+
+          &:hover {
+            border-color: vars.$almost-black;
+            color: vars.$almost-black;
+          }
+        }
+      }
+    }
+
+    .auth-buttons-desktop {
+      display: none;
+    }
+  }
+}

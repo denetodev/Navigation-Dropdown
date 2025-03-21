@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@use "styles/variables" as vars;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: vars.$font-family;
+  font-size: vars.$font-size-body;
+  font-weight: vars.$font-weight-medium;
+  color: vars.$almost-black;
+  background-color: vars.$almost-white;
+  line-height: 1.6;
+}
+
+a {
+  color: vars.$medium-gray;
+  text-decoration: none;
+  &:hover {
+    color: vars.$almost-black;
+  }
+}
+
+button {
+  cursor: pointer;
+  font-family: vars.$font-family;
+}
