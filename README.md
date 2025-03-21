@@ -1,8 +1,8 @@
 # Seção de Introdução com Navegação Dropdown | Desafio Frontend Mentor
 
-Este projeto é uma solução para o desafio [Intro Section with Dropdown Navigation](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5) do Frontend Mentor. O objetivo foi criar uma seção de introdução com um menu de navegação responsivo e dropdowns interativos, utilizando Angular 19 com a configuração `standalone=true` e SCSS para estilização. O projeto demonstra habilidades em desenvolvimento frontend, design responsivo e manipulação de estados dinâmicos.
+Este projeto é uma solução para o desafio [Intro Section with Dropdown Navigation](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5){:target="_blank"}. O objetivo foi criar uma seção de introdução com um menu de navegação responsivo e dropdowns interativos, utilizando Angular 19 com a configuração `standalone=true` e SCSS para estilização. O projeto demonstra habilidades em desenvolvimento frontend, design responsivo e manipulação de estados dinâmicos.
 
-Sinta-se à vontade para visitar meu perfil no Frontend Mentor - [@denetodev](https://www.frontendmentor.io/profile/denetodev)
+Sinta-se à vontade para visitar meu perfil no Frontend Mentor - [@denetodev](https://www.frontendmentor.io/profile/denetodev){:target="_blank"}
 
 ## Índice de Conteúdos
 
@@ -22,14 +22,13 @@ Sinta-se à vontade para visitar meu perfil no Frontend Mentor - [@denetodev](ht
 
 ### Imagem
 
-![Imagem do Projeto](https://raw.githubusercontent.com/deusdeteneto/intro-section-with-dropdown-navigation/main/design/desktop-design.jpg)  
-*(Substitua pelo link da imagem do seu projeto ou adicione uma captura de tela)*
+![Imagem do Projeto](https://raw.githubusercontent.com/denetodev/Navigation-Dropdown/refs/heads/master/design/active-states.jpg)  
 
 ### Links
 
-- **URL da Solução**: [Frontend Mentor](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-angular-19-standalone-true-scss-XXXXXX)  
+- **URL da Solução**: [Frontend Mentor](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-angular-19-standalone-true-scss-XXXXXX){:target="_blank"}  
   *(Substitua pelo link da solução no Frontend Mentor)*
-- **URL do Site**: [Site ao Vivo](https://intro-section-with-dropdown-navigation.vercel.app/)  
+- **URL do Site**: [Site ao Vivo](https://intro-section-with-dropdown-navigation.vercel.app/){:target="_blank"}  
   *(Substitua pelo link do seu projeto hospedado)*
 
 ---
@@ -68,10 +67,10 @@ Para futuros projetos, planejo:
 
 ### Recursos Utilizados
 
-- [Documentação do Angular](https://angular.io/docs) - Para entender como utilizar componentes standalone e outras funcionalidades do Angular.
-- [Documentação do SCSS](https://sass-lang.com/documentation/) - Para aprender a utilizar mixins, variáveis e outras funcionalidades do SCSS.
-- [Frontend Mentor](https://www.frontendmentor.io/) - Para praticar desafios frontend e melhorar minhas habilidades.
-- [MDN Web Docs](https://developer.mozilla.org/) - Para consultar boas práticas de HTML, CSS e JavaScript.
+- [Documentação do Angular](https://angular.io/docs){:target="_blank"} - Para entender como utilizar componentes standalone e outras funcionalidades do Angular.
+- [Documentação do SCSS](https://sass-lang.com/documentation/){:target="_blank"} - Para aprender a utilizar mixins, variáveis e outras funcionalidades do SCSS.
+- [Frontend Mentor](https://www.frontendmentor.io/){:target="_blank"} - Para praticar desafios frontend e melhorar minhas habilidades.
+- [MDN Web Docs](https://developer.mozilla.org/){:target="_blank"} - Para consultar boas práticas de HTML, CSS e JavaScript.
 
 ---
 
@@ -79,18 +78,18 @@ Para futuros projetos, planejo:
 
 Você pode encontrar mais informações sobre mim clicando nas minhas redes abaixo:
 
-- [GitHub](https://github.com/deusdeteneto)
-- [LinkedIn](https://www.linkedin.com/in/deusdeteneto)
-- [Instagram](https://www.instagram.com/torresneto.tn/)
+- [GitHub](https://github.com/denetodev){:target="_blank"}
+- [LinkedIn](https://www.linkedin.com/in/deusdeteneto){:target="_blank"}
+- [Instagram](https://www.instagram.com/torresneto.tn/){:target="_blank"}
 
 <div align="center">
-  <a href="https://github.com/denetodev">
+  <a href="https://github.com/denetodev" target="_blank">
     <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
   </a>
-  <a href="https://www.linkedin.com/in/deneto/">
+  <a href="https://www.linkedin.com/in/deusdeteneto" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
   </a>
-  <a href="https://www.instagram.com/denetodev/">
+  <a href="https://www.instagram.com/torresneto.tn/" target="_blank">
     <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
   </a>
 </div>
