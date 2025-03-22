@@ -1,8 +1,8 @@
 # Seção de Introdução com Navegação Dropdown | Desafio Frontend Mentor
 
-Este projeto é uma solução para o desafio [Intro Section with Dropdown Navigation](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5){:target="_blank"}. O objetivo foi criar uma seção de introdução com um menu de navegação responsivo e dropdowns interativos, utilizando Angular 19 com a configuração `standalone=true` e SCSS para estilização. O projeto demonstra habilidades em desenvolvimento frontend, design responsivo e manipulação de estados dinâmicos.
+Este projeto é uma solução para o desafio [Intro Section with Dropdown Navigation](https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5). O objetivo foi criar uma seção de introdução com um menu de navegação responsivo e dropdowns interativos, utilizando Angular 19 com a configuração `standalone=true` e SCSS para estilização. O projeto demonstra habilidades em desenvolvimento frontend, design responsivo e manipulação de estados dinâmicos.
 
-Sinta-se à vontade para visitar meu perfil no Frontend Mentor - [@denetodev](https://www.frontendmentor.io/profile/denetodev){:target="_blank"}
+Sinta-se à vontade para visitar meu perfil no Frontend Mentor - [@denetodev](https://www.frontendmentor.io/profile/denetodev)
 
 ## Índice de Conteúdos
 
@@ -22,11 +22,11 @@ Sinta-se à vontade para visitar meu perfil no Frontend Mentor - [@denetodev](ht
 
 ### Imagem
 
-![Imagem do Projeto](https://raw.githubusercontent.com/denetodev/Navigation-Dropdown/refs/heads/master/design/active-states.jpg)  
+![Imagem do Projeto](https://raw.githubusercontent.com/denetodev/Navigation-Dropdown/refs/heads/master/design/active-states.jpg)
 
 ### Links
 
-- **URL da Solução**: [Frontend Mentor](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-_HdQwpgaFl)  
+- **URL da Solução**: [Frontend Mentor](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-_HdQwpgaFl)
 - **URL do Site**: [Site ao Vivo](https://navigation-dropdown-five.vercel.app/)
 
 ---
