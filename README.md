@@ -26,10 +26,8 @@ Sinta-se à vontade para visitar meu perfil no Frontend Mentor - [@denetodev](ht
 
 ### Links
 
-- **URL da Solução**: [Frontend Mentor](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-angular-19-standalone-true-scss-XXXXXX){:target="_blank"}  
-  *(Substitua pelo link da solução no Frontend Mentor)*
-- **URL do Site**: [Site ao Vivo](https://intro-section-with-dropdown-navigation.vercel.app/){:target="_blank"}  
-  *(Substitua pelo link do seu projeto hospedado)*
+- **URL da Solução**: [Frontend Mentor](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-_HdQwpgaFl)  
+- **URL do Site**: [Site ao Vivo](https://navigation-dropdown-five.vercel.app/)
 
 ---
 
@@ -67,10 +65,10 @@ Para futuros projetos, planejo:
 
 ### Recursos Utilizados
 
-- [Documentação do Angular](https://angular.io/docs){:target="_blank"} - Para entender como utilizar componentes standalone e outras funcionalidades do Angular.
-- [Documentação do SCSS](https://sass-lang.com/documentation/){:target="_blank"} - Para aprender a utilizar mixins, variáveis e outras funcionalidades do SCSS.
-- [Frontend Mentor](https://www.frontendmentor.io/){:target="_blank"} - Para praticar desafios frontend e melhorar minhas habilidades.
-- [MDN Web Docs](https://developer.mozilla.org/){:target="_blank"} - Para consultar boas práticas de HTML, CSS e JavaScript.
+- [Documentação do Angular](https://angular.io/docs) - Para entender como utilizar componentes standalone e outras funcionalidades do Angular.
+- [Documentação do SCSS](https://sass-lang.com/documentation/) - Para aprender a utilizar mixins, variáveis e outras funcionalidades do SCSS.
+- [Frontend Mentor](https://www.frontendmentor.io/) - Para praticar desafios frontend e melhorar minhas habilidades.
+- [MDN Web Docs](https://developer.mozilla.org/) - Para consultar boas práticas de HTML, CSS e JavaScript.
 
 ---
 
@@ -78,9 +76,9 @@ Para futuros projetos, planejo:
 
 Você pode encontrar mais informações sobre mim clicando nas minhas redes abaixo:
 
-- [GitHub](https://github.com/denetodev){:target="_blank"}
-- [LinkedIn](https://www.linkedin.com/in/deusdeteneto){:target="_blank"}
-- [Instagram](https://www.instagram.com/torresneto.tn/){:target="_blank"}
+- [GitHub](https://github.com/denetodev)
+- [LinkedIn](https://www.linkedin.com/in/deusdeteneto)
+- [Instagram](https://www.instagram.com/torresneto.tn/)
 
 <div align="center">
   <a href="https://github.com/denetodev" target="_blank">
